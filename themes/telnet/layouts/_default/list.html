@@ -1,0 +1,32 @@
+{{ partial "header" . }}
+
+<section class="section">
+  <div class="container">
+    {{ range sort .Paginator.Pages }}
+    <article>
+      <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}<br /><small>{{ .Date.Format "January 2, 2006" }}</small></h1>
+      {{ if .Params.tags }}
+        {{ partial "tags" .Params.tags }}
+      {{ end }}
+      <div class="content">
+
+      {{ if .Params.intro }}
+        {{ .Params.intro }}
+      {{ else }}
+        {{ .Summary | plainify | safeHTML }}
+        {{ if .Truncated }}
+          <a class="pull-right" href="{{ .Permalink }}">Read More</a>
+        {{ end }} 
+      {{ end }}
+
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+{{ $pag := $.Paginator }} {{ if gt $pag.TotalPages 1 }}
+Page {{ $pag.PageNumber }} of {{ $pag.TotalPages }} {{ if $pag.HasPrev }} ← Newer Posts {{ end }} {{ if $pag.HasNext }} Older Posts → {{ end }}
+{{ end }}
+
+{{ partial "footer" . }}

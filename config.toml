@@ -1,0 +1,13 @@
+languageCode = "en-gb"
+title = "Port 22"
+baseurl = "https://testing.port22.co.uk/"
+theme = "telnet"
+keywords = "Port22, Security, News" # Not working
+metaDataFormat = "yaml"
+paginate = "50"
+
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License unless otherwise stated."
+
+[author]
+    name = "Port 22"
+    email = "info@port22.co.uk"

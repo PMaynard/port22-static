@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+
+<section class="section">
+  <div class="container">
+    {{ range sort .Paginator.Pages }}
+	<div class="list-group">
+	  <a href="{{ .Params.link }}" target="_BLANK" class="list-group-item">
+	    <h4 class="list-group-item-heading">{{ .Title }}</h4>
+	    <p class="list-group-item-text">{{ .Date.Format "January 2, 2006" }} <span class="pull-right">{{ .Params.source_name }}</span>  </p>
+	  </a>
+	</div>
+    {{ end }}
+  </div>
+</section>
+
+{{ partial "footer" . }}
