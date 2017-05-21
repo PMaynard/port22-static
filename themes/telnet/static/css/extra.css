@@ -64,7 +64,7 @@ a:hover { color: #293131; }
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #5A765F;
+  background-color: #555;
 }
 
 /* Custom page footer */
