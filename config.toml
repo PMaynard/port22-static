@@ -1,6 +1,6 @@
 languageCode = "en-gb"
 title = "Port 22"
-baseurl = "https://testing.port22.co.uk/"
+baseurl = "https://port22.co.uk/"
 theme = "telnet"
 keywords = "Port22, Security, News" # Not working
 metaDataFormat = "yaml"
