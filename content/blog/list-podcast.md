@@ -1,6 +1,7 @@
 ---
 title: Security Themed Podcasts
 date: 2017-02-10T13:18:37Z
+tags: [Podcasts, Security]
 ---
 
 In no particular order, here are a list of freely available security podcasts.
