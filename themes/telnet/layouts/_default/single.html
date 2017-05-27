@@ -15,11 +15,17 @@
       {{ .Content }}
     </div>
 
-    <h4>{{ .Date.Format "January 2, 2006" }}</h4>
-
+    <div class="meta">
+    {{ if .Date }}
+    <span class="glyphicon glyphicon-calendar pull-left" aria-hidden="true">
+        {{ .Date.Format "January 2, 2006" }}
+    </span>
+    {{ end }}
+    
     {{ if .Params.tags }}
       {{ partial "tags" .Params.tags }}
     {{ end }}
+    </div>
 
   </div>
 </div>

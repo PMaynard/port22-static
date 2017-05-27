@@ -1,5 +1,5 @@
-<div class="tags">
+<span class="glyphicon glyphicon-tag pull-right" aria-hidden="true">
     {{ range . }}
-        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>;
     {{ end }}
-</div>
+</span>

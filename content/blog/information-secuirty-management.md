@@ -1,9 +1,9 @@
 ---
 date: 2017-03-17T10:33:30Z
 title: Information Security Management
-tags: [Standards, review]
+tags: [Standards, Security, Overview]
 toc: true
-intro: "The standard attempts to provide requirements for establishing, implementing, maintaining and continually improving an information security management system. The standard is designed to be used by internal and external parties to assess the organisation's ability to meet its own information security requirements. The standards does not attempt to order the requirements by their importance, they are simply numbered for reference purposes. It is intended to provide requirements for the assessment and treatment of information security risks which are generic and are intended to be applicable to all organisations regardless of type, size or nature."
+description: "The standard attempts to provide requirements for establishing, implementing, maintaining and continually improving an information security management system. The standard is designed to be used by internal and external parties to assess the organisation's ability to meet its own information security requirements. The standards does not attempt to order the requirements by their importance, they are simply numbered for reference purposes. It is intended to provide requirements for the assessment and treatment of information security risks which are generic and are intended to be applicable to all organisations regardless of type, size or nature."
 ---
 
 # Introduction

@@ -7,8 +7,8 @@
       <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}<br /><small>{{ .Date.Format "January 2, 2006" }}</small></h1>
       <div class="content">
 
-      {{ if .Params.intro }}
-        <p>{{ .Params.intro }}</p>
+      {{ if .Description }}
+        <p>{{ .Description }}</p>
         <p><a href="{{ .Permalink }}">Read More</a></p>
       {{ else }}
         {{ .Content}}
