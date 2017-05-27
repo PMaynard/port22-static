@@ -2,6 +2,7 @@
 date = "2017-02-10T13:18:37Z"
 title = "Guidelines Overview"
 intro = "This document details an overview of the set of basic guidelines we recommend."
+draft = true
 +++
 
 This document details an overview of the set of basic guidelines we recommend.
