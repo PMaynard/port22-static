@@ -6,6 +6,8 @@ keywords = "Port22, Security, News" # Not working
 metaDataFormat = "yaml"
 paginate = "50"
 rssLimit = "10"
+disqusShortname = "p22-1"
+
 
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License unless otherwise stated."
 

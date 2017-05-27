@@ -21,11 +21,13 @@
         {{ .Date.Format "January 2, 2006" }}
     </span>
     {{ end }}
-    
+
     {{ if .Params.tags }}
       {{ partial "tags" .Params.tags }}
     {{ end }}
     </div>
+
+    {{ template "_internal/disqus.html" . }}
 
   </div>
 </div>
