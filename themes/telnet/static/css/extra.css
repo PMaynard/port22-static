@@ -21,9 +21,11 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 20px;
-  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #555;
 }
 
 h1, h2, h3, h4, h5, h6 {

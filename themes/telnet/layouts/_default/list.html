@@ -5,18 +5,13 @@
     {{ range sort .Paginator.Pages }}
     <article>
       <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}<br /><small>{{ .Date.Format "January 2, 2006" }}</small></h1>
-      {{ if .Params.tags }}
-        {{ partial "tags" .Params.tags }}
-      {{ end }}
       <div class="content">
 
       {{ if .Params.intro }}
-        {{ .Params.intro }}
+        <p>{{ .Params.intro }}</p>
+        <p><a href="{{ .Permalink }}">Read More</a></p>
       {{ else }}
-        {{ .Summary | plainify | safeHTML }}
-        {{ if .Truncated }}
-          <a class="pull-right" href="{{ .Permalink }}">Read More</a>
-        {{ end }} 
+        {{ .Content}}
       {{ end }}
 
       </div>

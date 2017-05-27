@@ -3,16 +3,24 @@
 <div class="row">
   <div class="col-lg-12">
 
-    <h1>{{ .Title }}<br />
-    <small>{{ .Date.Format "January 2, 2006" }}</small></h1>
+    <h1>{{ .Title }}</h1>
+
+    {{ if .Params.toc }}
+    <div id="toc" class="well col-lg-12">
+      {{ .TableOfContents }}
+    </div>
+    {{ end }}
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    <h4>{{ .Date.Format "January 2, 2006" }}</h4>
 
     {{ if .Params.tags }}
       {{ partial "tags" .Params.tags }}
     {{ end }}
-    
-    <div class="content">
-      {{ .Content }}
-    </div>
+
   </div>
 </div>
     

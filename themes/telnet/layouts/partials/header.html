@@ -39,9 +39,10 @@
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="/">Home</a></li>
-            <li role="presentation"><a href="/blog">Blog</a></li>
-            <li role="presentation"><a href="/about">About</a></li>
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          <li role="presentation" {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="active"{{end}}><a href="{{.URL}}">{{ .Name }}</a></li>
+          {{ end }}
           </ul>
         </nav>
         <h3 class="text-muted"><a href="/">{{ .Site.Title }}</a></h3>

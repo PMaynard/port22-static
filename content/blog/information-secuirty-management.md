@@ -1,17 +1,20 @@
-+++
-date = "2017-03-17T10:33:30Z"
-title = "Information Security Management"
-+++
+---
+date: 2017-03-17T10:33:30Z
+title: Information Security Management
+tags: [Standards, review]
+toc: true
+intro: "The standard attempts to provide requirements for establishing, implementing, maintaining and continually improving an information security management system. The standard is designed to be used by internal and external parties to assess the organisation's ability to meet its own information security requirements. The standards does not attempt to order the requirements by their importance, they are simply numbered for reference purposes. It is intended to provide requirements for the assessment and treatment of information security risks which are generic and are intended to be applicable to all organisations regardless of type, size or nature."
+---
 
-## Introduction
+# Introduction
 
 The standard attempts to provide requirements for establishing, implementing, maintaining and continually improving an information security management system. The standard is designed to be used by internal and external parties to assess the organisation's ability to meet its own information security requirements. The standards does not attempt to order the requirements by their importance, they are simply numbered for reference purposes. It is intended to provide requirements for the assessment and treatment of information security risks which are generic and are intended to be applicable to all organisations regardless of type, size or nature. 
 
-## Organisational Scope
+# Organisational Scope
 
 When developing an information security management system it is important to understand the organisation's internal and external issues (ISO 31000:2009. Clause 5.3) along with the needs of interested parties, which might include legal and regulatory requirements and contractual obligations. It is also important to determine the boundaries and applicability of the information security management system, based on the above. It is important to consider interfaces and dependencies that are performed between other organisations. The organisational scope should be enviable in a detailed documentation. 
 
-## Leadership
+# Leadership
 
 Management is a key part of ensuring that the information security management system will be successful. By ensuring that the security policy and objectives are established and that they match with the organisation's strategic direction as well as tight integration between the organisation and the information security requirements. The standard goes on to state, that management should communicate the importance of the security management requirements as well as provide adequate resources to achieve the intended outcomes. Management should also promote the continual improvement and support to other related management roles to ensure effectiveness of the information security management system. 
 
@@ -19,7 +22,7 @@ Along with appropriate commitment to leadership, there should also be documented
 
 Finally, management should assign roles for responsibility of ensuring the information security management system, a) conforms to the security requirements and b) able to report on the performance of the system back to management.
 
-## Planning 
+# Planning 
 
 When determining the risks and opportunities organisations should consider the organisational scope as well as the needs and exception of interested parties. By including this in the planning, it will ensure that the information security system will achieve its unintended outcomes, hopefully prevent or reduce undesired effect and be able to support continual improvement. The organisation should plan any actions which will address the risks and opportunities, a long with how to integrate, implement and evaluate the actions with in the security management system. 
 
@@ -44,7 +47,7 @@ Finally it is wise to produce information security objectives which can be appli
 - When it will be completed
 - How the results will be evaluated
 
-## Support
+# Support
 
 There are five main pillar when it comes to supporting the development of an information security management system.
 
@@ -74,8 +77,8 @@ The organisation should be able to evaluate the performance of the system system
 
 Internal audit of the system should be performed in a similar vain, ensuing that it conforms to organisation requirements and that is effectively implemented and maintained. An audit program should define the audit criteria and scope, frequency, methods, and responsibilities. Importantly, identify select auditors which can conduct impartial and objective audits which will be reported to relevant management.
 
-Management should review the security management system at planed intervals where key persons are able to report any issues and feedback from the results of the monitoring and audit processes, as well as from risk assessment and treatment. Actions generated from these meetings should be reviewed at the start and end of each session.   
+Management should review the security management system at planed intervals where key persons are able to report any issues and feedback from the results of the monitoring and audit processes, as well as from risk assessment and treatment. Actions generated from these meetings should be reviewed at the start and end of each session.
 
-## Improvement 
+# Improvement 
 
 When a nonconformity occurs the organisation should be able to take actions which can control the consequences. It would then evaluate the effectiveness of the actions taken and and determine if similar nonconformities exists, or could potentially occur. As a result it may be needed to update the information security management system to reflect this event. Continual improvement is required of the security system and should actively be updated and evaluated to ensure successful operation. 
