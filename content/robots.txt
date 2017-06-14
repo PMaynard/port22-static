@@ -1,7 +1,5 @@
 User-Agent: *
-Allow: /blog
-Allow: /about
-Disallow: * 
+Allow: * 
 
 Sitemap: https://port22.co.uk/sitemap.xml
 
